@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sign up</title>
 </head>
 <body>
     <div class="container">
         <section class="card">
-            <div class="carde__img">
+            <div class="card__img">
                 <div class="card__img_title">
                     <h1>Gradie</h1>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
+          <div class="card__img_pic"><img src="assets/iPhone Mockup.png" alt=""></div>
+         
             </div>
             <div class="card__form">
                 <h2>Login</h2>
                 <form action="">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="john@example.com">
-                    <label for="mtp">Passeword</label>
+                    <div class="form-groupe">
+                        <div><label for="email">Email</label></div>
+                        <input type="text" id="email" placeholder="john@example.com">
+                    </div>
+                    <div class="form-groupe">
+                        <div><label for="mtp">Passeword</label></div>
                     <input type="password" id="mtp" placeholder="At least 8 characters">
-                    <input type="checkbox" name="" id=""><span>By creating an account, you agree to the <a href="">Terms & conditions.</a></span>
-                    <input type="button" value="Create an Account">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id=""><span>By creating an account, you agree to the <a href="">Terms & conditions.</a></span>
+                    </div>
+                   <div class="button"><input type="submit" value="Create an Account"></div> 
                 </form>
             </div>
         </section>
